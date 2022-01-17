@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("imagen1.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("imagen2.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("imagen3.jpg");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: rgb(31, 223, 117);
+  color: rgb(156, 16, 16);
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+p{
+  color: rgb(248, 245, 245);
+  font-size:x-large ;
+}
+
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="bgimg-1">
+  <div class="caption">
+  <span class="border">BAJA</span>
+  </div>
+</div>
+
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style="text-align:center;">LA IMPORTANCIA DE LAS PLANTAS EN LA NATURALEZA</h3>
+  <p>La plantas nos proporcionan alimentos, medicinas, madera, combustible y fibras. Además, brindan cobijo a multitud de otros seres vivos, producen el oxígeno que respiramos, mantienen el suelo, regulan la humedad y contribuyen a la estabilidad del clima. Las plantas verdes pueblan toda la Tierra.</p>
+</div>
+
+<div class="bgimg-2">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:30px;color: #eb1212;">VEREMOS SIGUIENTE</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:rgb(46, 219, 55);background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <p>El efecto que tienen las plantas sobre nuestra naturaleza. La plantas nos proporcionan alimentos, medicinas, madera, combustible y fibras. Además, brindan cobijo a multitud de otros seres vivos, producen el oxígeno que respiramos, mantienen el suelo, regulan la humedad y contribuyen a la estabilidad del clima. </p>
+  </div>
+</div>
+
+<div class="bgimg-3">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:25px;color: #cf1b1b;"> EL CUIDADO QUE REQUIEREN</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <p>Como todos los seres vivos, las plantas deben recibir nutrimentos para sobrevivir. Además de luz y agua, se necesita de una dieta regular de minerales y otros elementos; aún cuando la tierra esté en muy buenas condiciones. Pasto, flores, árboles e incluso la maleza compiten por absorber los nutrimentos.</p>
+  </div>
+</div>
+
+<div class="bgimg-1">
+  <div class="caption">
+  <span class="border">INTERESANTE VERDAD!</span>
+  </div>
+</div>
+
+</body>
+</html>
